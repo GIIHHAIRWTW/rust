@@ -1,3 +1,4 @@
+/*
 fn main() {
     /*  基本输出
     let a = 12;
@@ -46,4 +47,38 @@ fn main() {
     println!("a[0] is {}", first);
     a[0] = 0;
     println!("Now, a[0] is {}", a[0]);
+}
+*/
+
+/*
+/// Adds one to the number given
+///
+/// # Examples
+///
+/// ```
+/// let x = add(1, 2);
+///
+/// ```
+
+fn add(a: i32, b: i32) -> i32 {
+    return a + b;
+}
+fn main() {
+    println!("{}", add(2, 3));
+    print();
+}
+
+fn print() {
+    println!("Hello World!");
+}
+*/
+fn main() {
+    let a = 12;
+    let b;
+    if a > 0 {  //rust中条件表达式必须是bool类型
+        b = 1;
+    } else {
+        b = 0;
+    }
+    println!("b is {}", b);
 }
