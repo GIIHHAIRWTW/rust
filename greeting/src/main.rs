@@ -73,12 +73,38 @@ fn print() {
 }
 */
 fn main() {
-    let a = 12;
-    let b;
-    if a > 0 {  //rust中条件表达式必须是bool类型
-        b = 1;
-    } else {
-        b = 0;
+    // let a = 12;
+    // let b;
+    // if a > 0 {  //rust中条件表达式必须是bool类型
+    //     b = 1;
+    // } else {
+    //     b = 0;
+    // }
+    // println!("b is {}", b);
+
+    //  while循环
+    // let mut num = 1;
+    // while num != 4 {
+    //     println!("{}", num);
+    //     num += 1;
+    // }
+    // println!("EXIT");
+
+    //  for循环
+    // let a = [10, 20, 30, 40, 50];
+    // for i in a.iter() {
+    //     println!("{}", i);
+    // }
+
+    //loop循环
+    let s = ['R', 'U', 'N', 'O', 'O', 'B'];
+    let mut i = 0;
+    loop {
+        let ch = s[i];
+        if ch == 'O' {
+            break;
+        }
+        println!("\'{}\'", ch);
+        i += 1;
     }
-    println!("b is {}", b);
 }
