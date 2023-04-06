@@ -96,15 +96,23 @@ fn main() {
     //     println!("{}", i);
     // }
 
-    //loop循环
-    let s = ['R', 'U', 'N', 'O', 'O', 'B'];
-    let mut i = 0;
-    loop {
-        let ch = s[i];
-        if ch == 'O' {
-            break;
-        }
-        println!("\'{}\'", ch);
-        i += 1;
-    }
+    //  loop循环
+    // let s = ['R', 'U', 'N', 'O', 'O', 'B'];
+    // let mut i = 0;
+    // loop {
+    //     let ch = s[i];
+    //     if ch == 'O' {
+    //         break;
+    //     }
+    //     println!("\'{}\'", ch);
+    //     i += 1;
+    // }
+
+    //  切片
+    // let s = String::from("broadcast");
+
+    // let part1 = &s[0..5];
+    // let part2 = &s[5..9];
+
+    // println!("{}={}+{}", s, part1, part2);
 }
