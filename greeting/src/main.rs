@@ -1,3 +1,16 @@
+fn greeting_world() {
+    let southern_germany = "Grüß Gott!";
+    let chinese = "世界，你好";
+    let english = "World, hello";
+    let regions = [southern_germany, chinese, english];
+    for region in regions.iter() {
+        println!("{}", &region);
+    }
+}
+
+fn main() {
+    greeting_world();
+}
 /*
 fn main() {
     /*  基本输出
@@ -72,7 +85,7 @@ fn print() {
     println!("Hello World!");
 }
 */
-fn main() {
+//fn main() {
     // let a = 12;
     // let b;
     // if a > 0 {  //rust中条件表达式必须是bool类型
@@ -115,4 +128,4 @@ fn main() {
     // let part2 = &s[5..9];
 
     // println!("{}={}+{}", s, part1, part2);
-}
+//}
